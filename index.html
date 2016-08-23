@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-A-Grid-Sketch</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div style="height: 20px;"></div>
+
+            <div id="inputs">
+                <input type="text" value="16" id="grid_size" placeholder="16">
+                <select id="color_choice">
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>Blue</option>
+                    <option>Black</option>
+                </select>
+                <button id="generate">
+                    Generate grid
+                </button>
+            </div>
+
+            <div style="height: 30px;"></div>
+        </div>
+        <div class="container">
+            <table id="grid">
+            </table>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
